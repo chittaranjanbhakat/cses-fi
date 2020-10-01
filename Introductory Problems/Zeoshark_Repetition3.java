@@ -5,7 +5,7 @@
 //Solution: https://cses.fi/problemset/result/1066886/
 //Author: souravbera
 import java.util.*;
-public class Zeoshark_Repetition
+public class Zeoshark_Repetition3
 {
     public static void main(String args[])
     {
