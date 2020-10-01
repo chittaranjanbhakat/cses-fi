@@ -10,7 +10,7 @@
 
 //author: souravbera
 import java.util.*;
-public class Zeoshark_IncreasingArray4
+public class IncreasingArray4
 {
     public static void main(String args[])
     {   

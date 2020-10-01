@@ -7,7 +7,7 @@
 //Author: souravbera
 //UserId: https://cses.fi/user/32264
 import java.util.*;
-public class Zeoshark_MissingNumber2{
+public class MissingNumber2{
  public static void main(String args[])
  {
     Scanner in = new Scanner(System.in);

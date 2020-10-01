@@ -10,7 +10,7 @@
 
 //Result: https://cses.fi/problemset/result/1065843/
 import java.util.*;
-public class ZeoShark_Weird_Algorithm1{
+public class WeirdAlgorithm1{
 
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);

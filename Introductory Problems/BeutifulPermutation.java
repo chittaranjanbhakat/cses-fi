@@ -8,7 +8,7 @@
 //Solution: https://cses.fi/problemset/result/1068418/
 // author: souravbera
 import java.util.*;
-public class Zeoshark_Permutation{
+public class BeutifulPermutation{
 
     public static void main(String args[])
     {

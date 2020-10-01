@@ -1,5 +1,9 @@
+//Bit Strings
+//https://cses.fi/problemset/task/1617
+
+//author: souravbera
 import java.util.*;
-public class Zeoshark_BitStrings {
+public class BitStrings {
     public static void main(String args[] ) {
         Scanner in= new Scanner(System.in);
         int n= in.nextInt();
