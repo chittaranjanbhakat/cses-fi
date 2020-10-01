@@ -12,7 +12,7 @@ public class Zeoshark_Repetition
         Scanner in= new Scanner(System.in);
         String s= in.next();
         //because initally for any char his/her count is 1.
-        int count=1, MaxCount=1;
+        int count=1,MaxCount=1;
         for(int i=1;i<s.length();i++)
         {
             if(s.charAt(i-1)==s.charAt(i))
