@@ -15,17 +15,17 @@ public class IncreasingArray4
     public static void main(String args[])
     {   
         long minTurns=0;
-        Scanner in= new Scanner(System.in);
-        int n= in.nextInt();
-        int a[]= new int[n];
-        a[0]= in.nextInt();
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int a[] = new int[n];
+        a[0] = in.nextInt();
         for(int i=1;i<n;i++)
         {
             a[i]=in.nextInt();
             if(a[i-1]>a[i])
             {
                 minTurns+=(a[i-1]-a[i]);
-                a[i]= a[i-1];
+                a[i] = a[i-1];
             }
         }
         System.out.println(minTurns);

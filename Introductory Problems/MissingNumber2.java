@@ -11,12 +11,12 @@ public class MissingNumber2{
  public static void main(String args[])
  {
     Scanner in = new Scanner(System.in);
-    int n= in.nextInt();
+    int n = in.nextInt();
    
-    int a[]= new int[n-1];
+    int a[] = new int[n-1];
     for(int i=0;i<n-1;i++)
     {
-        a[i]= in.nextInt();
+        a[i] = in.nextInt();
     }
     // String input= in.nextLine();
     // String num_arr[]= input.trim().split(" ");
@@ -24,7 +24,7 @@ public class MissingNumber2{
     //     a[i]= Integer.parseInt(num_arr[i]);
     int total=1;
     for(int j=2;j<=n;j++)
-        total=total + j - a[j-2];
+        total = total + j - a[j-2];
     System.out.println(total);
     in.close();
  }

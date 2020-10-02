@@ -12,8 +12,8 @@ public class BeutifulPermutation{
 
     public static void main(String args[])
     {
-        Scanner in= new Scanner(System.in);
-        int n= in.nextInt();
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
         if(n==1)
             System.out.print("1");
         else if(n<4)

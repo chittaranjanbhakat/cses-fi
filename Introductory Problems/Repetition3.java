@@ -9,18 +9,18 @@ public class Repetition3
 {
     public static void main(String args[])
     {
-        Scanner in= new Scanner(System.in);
-        String s= in.next();
+        Scanner in = new Scanner(System.in);
+        String s = in.next();
         //because initally for any char his/her count is 1.
-        int count=1,MaxCount=1;
+        int count = 1,MaxCount = 1;
         for(int i=1;i<s.length();i++)
         {
-            if(s.charAt(i-1)==s.charAt(i))
+            if(s.charAt(i-1) == s.charAt(i))
             count++;
             else
-            count=1;
+            count = 1;
             //reinitialising to single count=1
-            MaxCount= Math.max(MaxCount,count);
+            MaxCount = Math.max(MaxCount,count);
         }
 
         System.out.println(MaxCount);
